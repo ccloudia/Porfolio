@@ -2,5 +2,29 @@ body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
     font-weight: 300;
+    margin:0 auto;
     
+}
+
+#main-nav {
+    position:fixed;
+    text-align:right;
+    width:100%;
+    background-color:#fff;
+    
+}
+#main-nav li {
+    display:inline-block;
+    list-style: none;
+    padding:15px;
+}
+
+#main-nav li a {
+    text-decoration:none;
+    color:#1ac056;
+    font-weight:300;
+}
+
+#main-nav li a:hover {
+    color:pink;
 }
