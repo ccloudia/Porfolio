@@ -3,6 +3,7 @@ body {
     color: #291f1a;
     font-weight: 300;
     margin:0 auto;
+    box-sizing:border-box;
     
 }
 
@@ -27,4 +28,18 @@ body {
 
 #main-nav li a:hover {
     color:pink;
+}
+
+#main-header {
+    background-image:url(../img/img/header-background.jpg);
+    background-size:cover;
+    background-position:center;
+}
+
+#main-header .main-header-content h1 {
+    font-family: 'Roboto', sans-serif;
+}
+
+.main-header-content {
+    padding:30vh;
 }
