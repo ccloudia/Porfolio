@@ -38,8 +38,18 @@ body {
 
 #main-header .main-header-content h1 {
     font-family: 'Roboto', sans-serif;
+    text-align:center;
+    color:#fff;
+    font-weight:100;
+    font-size:12vh;
+    
 }
 
 .main-header-content {
     padding:30vh;
+}
+
+#main-header .main-header-content h1 span {
+    color:#1ac056;
+    font-weight:800;
 }
