@@ -6,12 +6,13 @@ body {
     box-sizing:border-box;
     
 }
-
+/*Menu*/
 #main-nav {
     position:fixed;
     text-align:right;
     width:100%;
     background-color:transparent;
+/*    margin:0;*/
     
 }
 #main-nav li {
@@ -29,7 +30,7 @@ body {
 #main-nav li a:hover {
     color:pink;
 }
-
+/*HEADER*/
 #main-header {
     background-image:url(../img/img/header-background.jpg);
     background-size:cover;
@@ -45,11 +46,80 @@ body {
     
 }
 
+#main-header .main-header-content h2 {
+    font-family: 'Roboto', sans-serif;
+    color:#fff;
+    text-align:center;
+    font-weight:100;
+    font-size: 4vh;
+
+    
+}
+
 .main-header-content {
     padding:30vh;
+    margin:0;
 }
 
 #main-header .main-header-content h1 span {
     color:#1ac056;
     font-weight:800;
+    font-family: 'Roboto', sans-serif;
 }
+/*O MNIE*/
+
+#about {
+/*    padding: 0 80px 100px;*/
+    width:100%;
+    background-color:#f9fcfe;
+    padding-top:5vh;
+    padding-bottom:45vh;
+    
+}
+#about  h2 {
+    text-align:center;
+    font-size:30px;
+    color:black;
+    font-weight:300;
+/*    margin-top:60px;*/
+    margin-bottom:35px;
+    
+}
+
+#about h2 span{
+    color:#1ac056;
+    font-weight:800;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+#about figure img{
+    max-height:350px;
+    max-width:100%;
+    border: 15px solid white;
+    border-radius:50%;
+}
+
+#about figure {
+    width:40%;
+    margin:0;
+    float:left;
+    text-align:center;
+}
+
+#about #about-content {
+    width:60%;
+    float:left;
+  
+   
+}
+
+#about #about-content p {
+      padding:30px;
+    
+}
+
+
+
+
+
