@@ -156,3 +156,95 @@ body {
 #skills p {
     text-align:center;
 }
+
+/*CONTACT*/
+
+#contact {
+    background-color: #213b50;
+    color:white;
+    overflow:hidden;
+    
+}
+
+#contact  h2 {
+    text-align:left;
+    font-size:38px;
+    color:white;
+    font-weight:300;
+    margin-top:0;
+    margin-bottom:35px;
+    
+}
+
+#contact h2 span{
+    color:#1ac056;
+    font-weight:800;
+    font-family: 'Roboto', sans-serif;
+}
+
+#contact .contact-data adress {
+    font-style:normal;
+    line-height:25px;
+    margin:72px 0;
+}
+
+#contact .contact-data adress a {
+    color:#1ac056;
+}
+#contact .contact-data {
+    width:50%;
+    float:left;
+}
+#contact .contact-form {
+    width:50%;
+   float:left;
+/*    text-align: center;*/
+    margin-top: 100px;
+    
+}
+#contact .contact-data .contact-social-icons a {
+    display:inline-block;
+    height:38px;
+    width:38px;
+    margin-right: 30px;
+    line-height: 38px;
+    text-align: center;
+    border:1px solid #fff;
+    font-size: 22px;
+    color:#fff;
+    
+}
+
+#contact .contact-data .contact-social-icons a:hover {
+    border: 1px solid #213b50;
+    background-color: #fff;
+    color:#213b50;
+}
+
+input[type="text"], input[type="email"], textarea {
+    width:90%;
+    padding:15px;
+    margin-bottom: 15px;
+    border: 0 solid #2b4a64;
+    background-color: #2b4a64;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, textarea:focus {
+    background-color: #426684;
+}
+
+input[type="submit"] {
+    width:auto;
+    padding:15px 30px;
+    float:right;
+    text-transform: uppercase;
+    border: 1px solid #1ac056;
+    background-color: #1ac056;
+    color:#fff;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: #fff;
+    color:#1ac056;
+}
