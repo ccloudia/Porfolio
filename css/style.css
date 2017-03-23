@@ -248,3 +248,16 @@ input[type="submit"]:hover {
     background-color: #fff;
     color:#1ac056;
 }
+
+/*FOOTER*/
+
+#footer{
+    background-color: #142634;
+    padding:0 80px;
+   
+    }
+#footer p {
+    color:#fff;
+    margin:0;
+    font-size:12px;
+}
