@@ -1,3 +1,6 @@
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: 'Lato', sans-serif;
     color: #291f1a;
@@ -16,7 +19,7 @@ body {
 /*    margin:0;*/
 
     }
-#main-nav label.toggle {
+#main-nav label.toggle, input[type="checkbox"] {
     display:none;
 }
 
