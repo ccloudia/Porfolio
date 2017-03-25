@@ -233,8 +233,12 @@ body {
     padding:5px;
     
 }
-.single-portfolio-item-mask-content .single-portfolio-item-mask-content-inner a{
+.fa-link{
     color:#1ac056;
+}
+
+.fa-link:hover {
+    color:pink;
 }
 
 /*CONTACT*/
@@ -336,6 +340,7 @@ input[type="submit"]:hover {
     padding:0 80px;
    
     }
+
 #footer p {
     color:#fff;
     margin:0;
