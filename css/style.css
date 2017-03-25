@@ -64,7 +64,7 @@ body {
 
 #main-header .main-header-content h1 span {
     color:#1ac056;
-    font-weight:800;
+    font-weight:600;
     font-family: 'Roboto', sans-serif;
 }
 /*O MNIE*/
@@ -74,7 +74,8 @@ body {
     width:100%;
     background-color:#f9fcfe;
     padding-top:5vh;
-    padding-bottom:45vh;
+    padding-bottom:50vh;
+    border-bottom: 4px solid #959191;
     
 }
 #about  h2 {
@@ -82,14 +83,14 @@ body {
     font-size:30px;
     color:black;
     font-weight:300;
-/*    margin-top:60px;*/
+    margin-top:60px;
     margin-bottom:35px;
     
 }
 
 #about h2 span{
     color:#1ac056;
-    font-weight:800;
+    font-weight:600;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -122,6 +123,11 @@ body {
 
 /*SKILLS*/
 
+#skills {
+    padding-top:5vh;
+    padding-bottom:10vh;
+}
+
 #skills #skills-icons {
     width:100%;
     text-align:center;
@@ -150,7 +156,7 @@ body {
 
 #skills h2 span{
     color:#1ac056;
-    font-weight:800;
+    font-weight:600;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -159,6 +165,10 @@ body {
 }
 
 /*PORTFOLIO*/
+#portfolio {
+    padding-top:5vh;
+    padding-bottom:10vh;
+}
 
 #portfolio h2 {
     text-align:center;
@@ -172,7 +182,7 @@ body {
 
 #portfolio h2 span{
     color:#1ac056;
-    font-weight:800;
+    font-weight:600;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -247,6 +257,7 @@ body {
     background-color: #213b50;
     color:white;
     overflow:hidden;
+    padding:5vh;
     
 }
 
@@ -258,11 +269,12 @@ body {
     margin-top:0;
     margin-bottom:35px;
     
+    
 }
 
 #contact h2 span{
     color:#1ac056;
-    font-weight:800;
+    font-weight:600;
     font-family: 'Roboto', sans-serif;
 }
 
@@ -270,6 +282,7 @@ body {
     font-style:normal;
     line-height:25px;
     margin:72px 0;
+
 }
 
 #contact .contact-data adress a {
@@ -296,6 +309,7 @@ body {
     border:1px solid #fff;
     font-size: 22px;
     color:#fff;
+    margin-top:3vh;
     
 }
 
@@ -326,6 +340,7 @@ input[type="submit"] {
     background-color: #1ac056;
     color:#fff;
     font-weight: 600;
+    margin-right:5vh;
 }
 
 input[type="submit"]:hover {
