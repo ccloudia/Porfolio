@@ -1,0 +1,41 @@
+/*Generalne ustawienia responsywne*/
+
+@media all and (max-width:1200px) {
+    
+}
+
+@media all and (max-width:768px) {
+    
+}
+
+@media all and (max-width:680px) {
+    
+}
+
+@media all and (max-width:480px){
+    
+}
+
+/*Responsywne menu*/
+
+@media all and (max-width:768px) {
+   #main-nav label.toggle {
+        display:block;
+        background-color: #fff;
+        padding: 0 20px;
+        color:#1ac056;
+        font-size:20px;
+        line-height:60px;
+        text-decoration:none;
+        border:none;
+        text-align:right;
+    }
+    
+    #main-nav {
+        display:none;
+    }
+    
+    #main-nav #drop:checked + ul {
+        display:block;
+    }
+}
